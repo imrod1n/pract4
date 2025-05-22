@@ -6,10 +6,43 @@
     <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <title>ХУЙ САСИ</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Документ</title>
 </head>
 <body>
-    <div id="app"></div>
-    <script type="text/babel" src="index.js"></script>
+    <header class="container text-center p-2"><h1>Бомбора</h1></header>
+    <nav class="container bg-black p-2">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Все</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Статьи</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Обзоры книг</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Отрывкм из книг</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Тесты</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Интервью</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Игры</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Открытки</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container t-5 d-flex justify-content-center"">
+        <div id="app" class="row"></div>
+    </div>
+
+    <script type="text/babel" src="js/index.js"></script>
 </body>
 </html>
